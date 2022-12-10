@@ -36,27 +36,6 @@ main{
     align-items: center;
     justify-content: center;
 }
-.dates{
-    width: 475px;
-    height: 400px;
-    background-color: #ffbcff;
-    border-radius: 20px;
-    display: flex;
-    flex-flow: column nowrap;
-    align-items: center;
-    gap: 30px
-}
-.dates ul{
-    display: block;
-    width: 350px;
-    line-height: 25px;
-    text-align: start;
-}
-.dates .header{
-    height: 15%;
-    color: #413b4b;
-    border-bottom: 2px dashed #413b4b;
-}
 .header{
     height: 15%;
     width: 350px;
@@ -169,7 +148,7 @@ a:hover{
     main{
         width: 400px;
         height: 380px;
-        padding: 0;
+        transform: scale(0.75);
     }
     .header{
         font-size: 16px;
@@ -197,14 +176,5 @@ a:hover{
         height: 45px;
         width: 45px;
         font-size: 16px;
-    }
-    .dates{
-        height: 200px;
-        width: 400px;
-        font-size: 16px;
-        gap: 15px;
-    }
-    .dates ul{
-        line-height: 19.5px;
     }
 }
