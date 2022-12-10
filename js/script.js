@@ -14,7 +14,7 @@ let content = doc.getElementById("content"),
     trueDate = new Date()
 setInterval(()=>{
     let temp = new Date()
-    currTimeDisplay.innerHTML = `$${temp.getHours().toString().length < 2 ? "0" : ""}{temp.getHours()}:${temp.getMinutes().toString().length < 2 ? "0" : ""}${temp.getMinutes()}:${temp.getSeconds().toString().length < 2 ? "0" : ""}${temp.getSeconds()}`
+    currTimeDisplay.innerHTML = `${temp.getHours().toString().length < 2 ? "0" : ""}{temp.getHours()}:${temp.getMinutes().toString().length < 2 ? "0" : ""}${temp.getMinutes()}:${temp.getSeconds().toString().length < 2 ? "0" : ""}${temp.getSeconds()}`
 }, 1000)
 window.onload = () =>{
     fillTable()
