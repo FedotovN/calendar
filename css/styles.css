@@ -148,7 +148,7 @@ a:hover{
     main{
         width: 400px;
         height: 380px;
-        transform: scale(0.75);
+        transform: scale(0.9);
     }
     .header{
         font-size: 16px;
