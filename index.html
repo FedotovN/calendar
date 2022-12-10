@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Календарь</title>
+</head>
+<body>
+    <main>
+        <div class="header" id ="header">
+            <span id="monthDisplay"></span>
+            <span id="yearDisplay"></span>
+            <div class="controls">
+                <a id = "backward" href="#" class="backward">></a>
+                <a id = "forward" href="#" class="forward">></a>
+            </div>
+        </div>
+        <div class="week_days">
+            <span>вс</span>
+            <span>пн</span>
+            <span>вт</span>
+            <span>ср</span>
+            <span>чт</span>
+            <span>пт</span>
+            <span>сб</span>
+        </div>
+        <div class="content" id="content">
+        </div>
+    </main>
+    <div class="dates">
+        <div class="header">
+            <p class="timeToDay">До этого дня осталось: </p>
+        </div>
+        <ul>
+            <li id="ms">Миллисекунды:</li>
+            <li id="s">Секунды:</li>
+            <li id="m">Минуты:</li>
+            <li id="h">Часы:</li>
+            <li id="d">Дни:</li>
+            <li id="M">Месяцы:</li>
+            <li id="y">Годы:</li>
+        </ul>
+    </div>
+    <script src="js/script.js"></script>
+</body>
+</html>
